@@ -125,7 +125,7 @@ export default function App() {
           />
         </View>
         <View style={styles.inputWrapper}>
-          <Text style={styles.heading}>Include lowercase</Text>
+          <Text style={styles.heading}>Include uppercase</Text>
           <BouncyCheckbox
           disableText
           isChecked={upperCase}
@@ -135,7 +135,7 @@ export default function App() {
           />
         </View>
         <View style={styles.inputWrapper}>
-          <Text style={styles.heading}>Include lowercase</Text>
+          <Text style={styles.heading}>Include numbers</Text>
           <BouncyCheckbox
           disableText
           isChecked={numbers}
@@ -145,7 +145,7 @@ export default function App() {
           />
         </View>
         <View style={styles.inputWrapper}>
-          <Text style={styles.heading}>Include lowercase</Text>
+          <Text style={styles.heading}>Include symbol</Text>
           <BouncyCheckbox
           disableText
           isChecked={symbol}
